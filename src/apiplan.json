@@ -1,0 +1,23 @@
+{
+    "api":{
+        "session":{
+            "check":{
+                "params":{
+                    "token":"token_string"
+                },
+                "returns":{
+                    "valid":"boolean"
+                }
+            },
+            "create":{
+                "params":{
+                    "auth":"auth_string",
+                    "notes":"auth_string is in the format 'username:password'"
+                }
+            },
+            "destroy":{}
+        },
+        "user":{},
+        "forwarder":{}
+    }
+}
